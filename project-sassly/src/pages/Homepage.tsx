@@ -4,7 +4,7 @@ import MainContent from "../components/MainContent/MainContent";
 import FrameComponent from "../components/FrameComponent/FrameComponent";
 import BrandContent from "../components/BrandContent/BrandContent";
 import DataAnalytics from "../components/DataAnalytics/DataAnalytics";
-import FrameComponent1 from "../components/FrameComponent1/FrameComponent1";
+import SocialMediaIntegrations from "../components/SocialMediaIntegrations/SocialMediaIntegrations";
 import Article from "../components/Article/Article";
 import CTA from "../components/CTA/CTA";
 import Footer from "../components/Footer/Footer";
@@ -37,7 +37,7 @@ const Homepage: FC = () => {
         alt=""
         src="/background-integrations.svg"
       />
-      <FrameComponent1 />
+      <SocialMediaIntegrations />
       <Article />
       <section className="self-stretch flex flex-col items-start justify-start max-w-full">
         <CTA />
