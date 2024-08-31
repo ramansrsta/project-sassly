@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Navbar from "../NavBar/NavBar";
+import Navbar from "../common/NavBar/NavBar";
 
 export type ContentProps = {
   className?: string;

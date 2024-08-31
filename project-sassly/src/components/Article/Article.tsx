@@ -1,7 +1,7 @@
 import { FC } from "react";
-import Label from "../Label/Label";
-import ArticlesCard from "../ArticlesCard/ArticlesCard";
-import Button from "../Button/Button";
+import Label from "../common/Label/Label";
+import Card from "../common/Card/Card";
+import Button from "../common/Button/Button";
 
 export type ArticleType = {
   className?: string;
@@ -38,7 +38,7 @@ const Article: FC<ArticleType> = ({ className = "" }) => {
               propMinWidth="4rem"
             />
           </div>
-          <ArticlesCard
+          <Card
             desc="Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas.."
             title="Best platform for business and productivity"
             image="/image-1@2x.png"
@@ -46,7 +46,7 @@ const Article: FC<ArticleType> = ({ className = "" }) => {
             propBackgroundColor="#0097fe"
             propMinWidth="4.625rem"
           />
-          <ArticlesCard
+          <Card
             desc="Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas.."
             title="Social media can growth your business traffic"
             image="/image-2@2x.png"

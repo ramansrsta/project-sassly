@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Label from "../Label/Label";
 
-export type ArticlesCardProps = {
+export type CardProps = {
   className?: string;
   desc?: string;
   title?: string;
@@ -11,7 +11,7 @@ export type ArticlesCardProps = {
   propMinWidth?: string;
 };
 
-const ArticlesCard: FC<ArticlesCardProps> = ({
+const Card: FC<CardProps> = ({
   className = "",
   desc = "Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas..",
   title = "Social media can grow your business traffic",
@@ -46,4 +46,4 @@ const ArticlesCard: FC<ArticlesCardProps> = ({
   );
 };
 
-export default ArticlesCard;
+export default Card;

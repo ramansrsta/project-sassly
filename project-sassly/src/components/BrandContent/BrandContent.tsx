@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import ReportAutomation from "../ReportAutomation/ReportAutomation";
-import Button from "../Button/Button";
+import Button from "../common/Button/Button";
 
 export type BrandContentType = {
   className?: string;

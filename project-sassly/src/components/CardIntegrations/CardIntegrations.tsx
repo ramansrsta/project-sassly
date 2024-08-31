@@ -1,5 +1,5 @@
 import { FC, useMemo, type CSSProperties } from "react";
-import Button from "../Button/Button";
+import Button from "../common/Button/Button";
 
 export type CardIntegrationsType = {
   className?: string;

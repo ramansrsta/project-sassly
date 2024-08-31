@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Button from "../Button/Button";
+import Button from "../common/Button/Button";
 import AllTrafic from "../AllTrafic/AllTrafic";
 
 export type MainContentType = {
@@ -53,11 +53,11 @@ const MainContent: FC<MainContentType> = ({ className = "" }) => {
           </div>
         </div>
         <div className="self-stretch [filter:drop-shadow(16px_32px_74px_rgba(126,_138,_253,_0.08))] flex flex-col items-start justify-start p-[1.5rem] box-border relative gap-[1rem] max-w-full z-[1] mq750:pt-[1.25rem] mq750:pb-[1.25rem] mq750:box-border">
-          <img
-            className="w-full h-full absolute !m-[0] top-[0rem] right-[0rem] bottom-[0rem] left-[0rem] max-w-full overflow-hidden max-h-full object-cover"
+          {/* <img
+            className="w-full h-full absolute !m-[0] top-[0rem] right-[0rem] bottom-[0rem] left-[0rem] max-w-full  max-h-full object-cover"
             alt=""
             src="/texture-bg@2x.png"
-          />
+          /> */}
           <div className="w-[57.063rem] flex flex-row items-start justify-center flex-wrap content-start gap-[1.562rem] max-w-full">
             <div className="w-[3.625rem] flex flex-col items-start justify-start pt-[0.812rem] px-[0rem] pb-[0rem] box-border">
               <img
